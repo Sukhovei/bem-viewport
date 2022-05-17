@@ -1,0 +1,76 @@
+body{
+    color: #f33f40;
+    max-width: 320px;
+}
+@media (max-width: 1280px){
+    .container{
+        max-width:1075px;
+    }
+    .about .about__title{
+        max-width: 45px;
+        font-size: 40px;
+    }
+    .Feature .main_menu li{
+        font-size: 18px;
+    }
+    .Feature .photo-row{
+        gap: 10px;
+    }
+
+}
+@media (max-width: 1075px) {
+    .container {
+        max-width: 727px;
+    }
+
+    .service .info_col {
+        max-width: 40%;
+    }
+    .service .elements{
+        max-width: 100%;
+    }
+    .Meet .out-info,
+    .Meet .meet__card-block{
+        font-size: 20px;
+    }
+}
+@media (max-width: 727px) {
+    .container {
+        max-width: 576px;
+    }
+    .service .elements{
+        max-width: initial;
+    }
+    .Meet .meet__col h2{
+        max-width:20px ;
+        font-size: 20px;
+    }
+    .Meet .row-info,
+    .Meet .meet__card-block {
+
+        font-size: 25px;
+    }
+    .lend .lend-title h2,
+    .lend .lend-title p {
+        font-size: 20px;
+        max-width: 20px;
+    }
+
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 320px;
+    }
+    .about .about__video-wrapper iframe{
+        max-width: 150%;
+    }
+    .about .about_contact{
+        max-width: 50%;
+    }
+    .service .btn-about_service{
+        max-width:50% ;
+    }
+
+
+}
+
